@@ -1,3 +1,5 @@
+library(readr)
+
 write_csv(data.frame(sample(1:3, 3), sample(1:3, 3), sample(1:3, 3)),
           file = "data.csv")
 

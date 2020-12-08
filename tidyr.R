@@ -1,3 +1,5 @@
+library(tidyr)
+
 tibble <- tibble(x = 1:3, y = c("a", "b", "c"))
 print(tibble)
 frame <- as.data.frame(tibble)
